@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Friend Fimder Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sip615/friendFinder.git"
+  },
+  "author": "Sunil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sip615/friendFinder/issues"
+  },
+  "homepage": "https://github.com/sip615/friendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2"
+  }
+}
