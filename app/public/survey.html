@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Here is your damen-uhd survey!</h1>
-    <input id="name" placeholder="Choose your stuffs..."/>
-    <form 
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>FriendFinder</title>
+
+		<!-- CSS and JS links-->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+		<!-- Chosen (this is copy/pasted from demos etc.)-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Here is your survey!</h1>
+			<br />
+
+			<h4>About You!</h4>
+			<h3>Name (required)</h3>
+			<input
+				typ="text"
+				id="name"
+				placeholder="Choose your stuffs..."
+				required
+			/>
+
+			<h3>Link to Photo Image (required)</h3>
+			<input type="text" id="photo" class="form-control" required />
+
+			<hr />
+
+			<h4><strong>Question 1</strong></h4>
+			<h5>You daydream about unicorns having brunch.</h5>
+			<select class="chosen-select" id="q1">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+
+			<h4><strong>Question 2</strong></h4>
+			<h5>You've never met an octopus you didn't like.</h5>
+			<select class="chosen-select" id="q2">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+
+			<h4><strong>Question 3</strong></h4>
+			<h5>The color orange makes you feel whimsical.</h5>
+			<select class="chosen-select" id="q3">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+
+			<h4><strong>Question 4</strong></h4>
+			<h5>You would like to have a cookie.</h5>
+			<select class="chosen-select" id="q4">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+
+			<!-- No more questions, this is more than enough...  -->
+		</div>
+		<script type="text/javascript" src="./js/survey.js"></script>
+	</body>
 </html>
