@@ -18,5 +18,5 @@ the following URL:
 
 `localhost:<PORT>`
 
-Where <PORT> is the number of the PORT that the server is listening on. Upon successful load, you will see the home page for
+Where `<PORT>`is the number of the PORT that the server is listening on. Upon successful load, you will see the home page for
 FriendFinder.
