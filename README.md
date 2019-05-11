@@ -6,7 +6,7 @@ UNH Coding Bootcamp Friend Finder Homework
 
 FriendFinder is a friend matching app. Answer the questions and click submit to see who you match up with.
 
-## Instruction
+<!-- ## Instruction
 
 To use FriendFinder, you'll need to start the server. Navigate to the appropriate directory on your machine,
 and then use the following command in your terminal to start a node server.
@@ -19,4 +19,4 @@ the following URL:
 `localhost:<PORT>`
 
 Where `<PORT>`is the number of the PORT that the server is listening on. Upon successful load, you will see the home page for
-FriendFinder.
+FriendFinder. -->
