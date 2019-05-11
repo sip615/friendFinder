@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-//start listening on port 8080, not sure why, but 8080 seems pretty standard
+//start listening on port 8080
 const PORT = process.env.PORT || 8080;
 
 //Start up a server for this application. Most of the code in this file is copy/paste standard server code per instruction.
